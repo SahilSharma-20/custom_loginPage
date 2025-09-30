@@ -1,0 +1,59 @@
+<mvc:View
+    controllerName="log.pg.loginpage.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <!-- Page with title -->
+    <Page id="loginPage" title="Custom Login Page" class="loginPage">
+
+        <content>
+            <VBox width="100%" height="100%">
+                
+                <!-- Back Button Row (below title) -->
+                <HBox width="100%" justifyContent="Start" class="sapUiSmallMargin">
+                    <Button
+                        id="backButton"
+                        text="Back"
+                        type="Default"
+                        visible="false"
+                        press="onBackToLogin"
+                        class="sapUiSmallMarginBegin" />
+                </HBox>
+
+                <!-- Central container for all sections -->
+                <VBox
+                    class="loginFormContainer"
+                    width="100%"
+                    height="100%"
+                    justifyContent="Center"
+                    alignItems="Center">
+
+                    <!-- LOGIN -->
+                    <VBox id="loginSection" visible="true" class="loginFields">
+                        <Input id="userIdInput" placeholder="User ID" width="300px" />
+                        <Input id="passwordInput" placeholder="Password" type="Password" width="300px" class="sapUiSmallMarginTop" />
+                        <Button text="Login" press="onLogin" type="Emphasized" width="300px" class="sapUiSmallMarginTop" />
+                        <Button text="Forgot Password?" press="onForgotPassword" type="Default" width="300px" class="sapUiSmallMarginTop" />
+                    </VBox>
+
+                    <!-- FORGOT PASSWORD -->
+                    <VBox id="forgotSection" visible="false" class="loginFields">
+                        <Input id="fpUserId" placeholder="User ID" width="300px" />
+                        <DatePicker id="fpDob" placeholder="Date of Birth" width="300px" class="sapUiSmallMarginTop" />
+                        <Input id="fpEmail" placeholder="Registered Email" width="300px" class="sapUiSmallMarginTop" />
+                        <Button text="Proceed" press="onProceedVerification" type="Emphasized" width="300px" class="sapUiSmallMarginTop" />
+                    </VBox>
+
+                    <!-- RESET PASSWORD -->
+                    <VBox id="resetSection" visible="false" class="loginFields">
+                        <Input id="currentOtp" placeholder="OTP (Current Password)" width="300px" class="sapUiSmallMarginTop" />
+                        <Input id="newPassword" placeholder="New Password" type="Password" width="300px" class="sapUiSmallMarginTop" />
+                        <Input id="retypePassword" placeholder="Retype New Password" type="Password" width="300px" class="sapUiSmallMarginTop" />
+                        <Button text="Login" press="onResetLogin" type="Emphasized" width="300px" class="sapUiSmallMarginTop" />
+                    </VBox>
+
+                </VBox>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,11 @@
+<mvc:View controllerName="log.pg.loginpage.controller.Success"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="successPage" title="Success">
+        <content>
+            <VBox class="sapUiSmallMargin" alignItems="Center" justifyContent="Center">
+                <Text text="U DID IT" />
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
