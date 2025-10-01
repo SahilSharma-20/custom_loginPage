@@ -40,15 +40,15 @@ Contains user ID, password, email, and date of birth for testing
 
 **🛠️ Tech Stack**
 
-**_Frontend Framework:_** SAP UI5 (v1.140.0) with Fiori look-and-feel
-**_Language:_** JavaScript (no TypeScript)
-**_Views:_** XML Views (Main.view.xml, Success.view.xml)
-**_Controllers:_** JS Controllers (Main.controller.js, Success.controller.js)
-**_Data Binding:_** sap.ui.model.json.JSONModel for mock data
-**_UI Components:_** sap.m controls (Page, VBox, Button, Input, DatePicker, etc.)
-**_Routing:_** Configured in manifest.json for navigation between pages
-**_Styling:_** Custom CSS in /webapp/css/style.css for background blur, layout, and button styling
-**_Development Environment:_** SAP Business Application Studio (SAP BAS)
+|**_Frontend Framework:_** SAP UI5 (v1.140.0) with Fiori look-and-feel |
+|**_Language:_** JavaScript (no TypeScript) |
+|**_Views:_** XML Views (Main.view.xml, Success.view.xml) |
+|**_Controllers:_** JS Controllers (Main.controller.js, Success.controller.js) |
+|**_Data Binding:_** sap.ui.model.json.JSONModel for mock data |
+|**_UI Components:_** sap.m controls (Page, VBox, Button, Input, DatePicker, etc.) |
+|**_Routing:_** Configured in manifest.json for navigation between pages |
+|**_Styling:_** Custom CSS in /webapp/css/style.css for background blur, layout, and button styling |
+|**_Development Environment:_** SAP Business Application Studio (SAP BAS) |
 
 
 <img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/0ad94165-1eec-49e1-9c25-4186a0a45392" />
