@@ -40,8 +40,10 @@ Contains user ID, password, email, and date of birth for testing
 
 **🛠️ Tech Stack**
 
-|**_Frontend Framework:_** SAP UI5 (v1.140.0) with Fiori look-and-feel |
-|**_Language:_** JavaScript (no TypeScript) |
+| **_Frontend Framework:_** SAP UI5 (v1.140.0) with Fiori look-and-feel |
+
+| **_Language:_** JavaScript (no TypeScript) |
+
 |**_Views:_** XML Views (Main.view.xml, Success.view.xml) |
 |**_Controllers:_** JS Controllers (Main.controller.js, Success.controller.js) |
 |**_Data Binding:_** sap.ui.model.json.JSONModel for mock data |
